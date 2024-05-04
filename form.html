@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Contacto</title>
+</head>
+<body>
+  <h1>Formulario de Contacto</h1>
+  <form>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" required>
+    <br><br>
+
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido" required>
+    <br><br>
+
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" required>
+    <br><br>
+
+    <label for="telefono">Teléfono:</label>
+    <input type="tel" id="telefono" required>
+    <br><br>
+
+    <label for="motivo">Motivo de contacto:</label>
+    <select id="motivo">
+      <option value="consulta">Consulta</option>
+      <option value="sugerencia">Sugerencia</option>
+      <option value="queja">Queja</option>
+    </select>
+    <br><br>
+
+    <label>Preferencias de contacto:</label>
+    <br>
+    <input type="radio" id="telefono" value="telefono" name="preferencia">
+    <label for="telefono">Teléfono</label>
+    <br>
+    <input type="radio" id="email2" value="email" name="preferencia">
+    <label for="email2">Email</label>
+    <br><br>
+
+    <label for="mensaje">Mensaje:</label><br>
+    <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea><br><br>
+
+    <input type="submit" value="Enviar">
+    <input type="button" value="Cancelar" onclick="window.location.href='index.html'">
+    <input type="reset" value="Resetear">
+  </form>
+</body>
+</html>
