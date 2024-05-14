@@ -342,3 +342,103 @@ footer a {
   top: 20%;
   margin-right: 10px;
 }
+
+#fotohamburguesa {
+  display: none;
+}
+
+/* If the screen size is 600px wide or less, hide the element */
+@media (max-width: 860px) {
+
+  #fotohamburguesa {
+    display: block;
+    width: 250px;
+    height: 150px;
+  }
+
+  span {
+    left: 30%;
+    width: 860px;
+
+  }
+  nav p {
+    left: 50%;
+  }
+
+  h2 {
+    width: 860px;
+    left: 2%;
+  }
+  nav {
+    width: 860px;
+    margin-bottom: 50px;
+  }
+  main {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start; 
+    max-width: 860px; 
+    margin: 0 auto; 
+    right: 33%;
+  }
+  body {
+    width: 860px;
+    margin: 5px;
+  }
+
+  #fotologo {
+    display: none;
+  }
+
+  input {
+    display: none;
+  }
+
+  #foto3lineas{
+    display: none;
+  }
+
+  article {
+    width: 600px;
+
+  }
+
+  section {
+    width: 600px;
+
+  }
+  img {
+    width: 600px;
+    left: 15%;
+  }
+
+  footer {
+   display: none;
+  }
+
+  h1 {
+    width: 750px;
+    height: 300px;
+    left: 0%;
+    text-align: center;
+  }
+
+  #qpsPolicial {
+    display: none;
+  }
+
+  #textoPolicial {
+    display: none;
+  }
+
+  .contenedor2 {
+    max-width: 860px;
+  }
+  #p4 {
+    right: 22%;
+  }
+  #p8 {
+    right: 22%;
+  }
+}
